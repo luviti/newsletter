@@ -22,7 +22,7 @@ const db = mysql.createConnection({
 	database:'news',
 })
 
-//app.get('/',function(req, res){
+//app.get('/lista_emails',function(req, res){
 	//let query = db.query("SELECT * FROM `emails` ",function(err,results){
 	//	res.render('clientes',{lista:results})
 	//});
