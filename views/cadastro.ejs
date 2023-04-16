@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<title></title>
+	<style type="text/css">
+		*{padding: 0;margin:0;box-sizing: border-box;font-family: 'Roboto', sans-serif;text-align: center;}
+		html,body{height: 100%;background-color: #1B1B1B;color: white;padding-top: 3%}
+
+		.container{
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+
+		h1{
+			font-size: 55px;
+		}
+
+		p{
+			width: 40%;
+			margin: 0 auto;
+			font-size: 19px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		input[type=email]{
+			width: 35%;
+			height: 40px;
+			background-color: #2B2B2B;
+			text-align: left;
+			padding-left: 10px;
+			font-size: 18px;
+			border-radius: 0.2em;
+			border: 0;
+			margin-top: 20px;
+			margin: 0 auto;
+			outline: 0;
+			color:white;	
+		}
+
+		input::placeholder{
+			color: #A9A9A9;
+		}
+
+		input[type=submit]{
+			width: 23%;
+			height: 40px;
+			display: block;
+			margin: 0 auto;
+			margin-top: 20px;
+			outline: 0;
+			background-color: #00CED1;
+			color: white;
+			border: 0;
+			border-radius: 0.2em;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+		@media screen and (max-width: 768px){
+			p{
+			width: 90%;	
+		}
+
+		input[type=email]{
+			width: 90%;
+		}
+
+		input[type=submit]{
+			width: 90%;
+		}
+		}
+	</style>
+</head>
+<body>
+	<div class=".container">
+	<h1>Cadastrar Cliente</h1>
+	<p>Fique por dentro das últimas novidades do setor de tecnologia e receba conteúdo exclusivo em primeira mão. Inscreva-se em nossa newsletter e esteja sempre atualizado.</p>
+
+	<form method="post">
+		<input type="email" name="emails" placeholder="Coloque seu email">
+		<input type="submit" name="envia" value="Inscrever-se">
+	</form><!--form-->
+</div><!--container-->
+</body>
+</html>
